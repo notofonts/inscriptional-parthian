@@ -1,12 +1,15 @@
 {
-.appVersion = "1357";
+.appVersion = "3072";
+DisplayStrings = (
+"/u10B4D10B4D"
+);
 classes = (
 {
 code = "u10B40 u10B41 u10B42 u10B43 u10B44 u10B45 u10B46 u10B47 u10B48 u10B49 u10B4A u10B4B u10B4C u10B4E u10B4F u10B50 u10B51 u10B52 u10B53 u10B54 u10B55";
 name = class1;
 }
 );
-copyright = "Copyright 2017-2021 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2017-2022 Google Inc. All Rights Reserved.";
 customParameters = (
 {
 name = glyphOrder;
@@ -83,6 +86,10 @@ value = (
 );
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -104,7 +111,7 @@ value = "Noto is a trademark of Google Inc.";
 },
 {
 name = versionString;
-value = "Version 2.001";
+value = "Version 2.002";
 }
 );
 date = "2021-12-16 18:44:18 +0000";
@@ -125,12 +132,16 @@ name = Languagesystems;
 );
 features = (
 {
-code = "sub u10B42 u10B45 by u10B4210B45;\012sub u10B47 u10B45 by u10B4710B45;\012sub u10B49 u10B45 by u10B4910B45;\012sub u10B4D u10B43 by u10B4D10B43;\012sub u10B4D u10B45 by u10B4D10B45;\012sub u10B4D u10B4D by u10B4D10B4D;\012sub u10B4F u10B4B by u10B4F10B4B;\012sub u10B53 u10B45 by u10B5310B45;\012sub u10B55 u10B45 by u10B5510B45;\012\012sub u10B4D' @class1 by u10B4D.alt01;\012sub u10B51' @class1 by u10B51.alt01;\012\012";
+code = "sub u10B4D u10B4D by u10B4D10B4D;\012\012lookup alts {\012sub u10B4D' @class1 by u10B4D.alt01;\012sub u10B51' @class1 by u10B51.alt01;\012} alts;\012\012";
 name = ccmp;
 },
 {
-code = "lookup PairPositioning1 {\012    lookupflag RightToLeft;\012    ;\012    pos u10B4D.alt01 <NULL> u10B42 <112 0 112 0>;\012    pos u10B4D.alt01 <NULL> u10B45 <127 0 127 0>;\012    pos u10B4D.alt01 <NULL> u10B46 <381 0 381 0>;\012    pos u10B4D.alt01 <NULL> u10B49 <410 0 410 0>;\012    pos u10B4D.alt01 <NULL> u10B4B <234 0 234 0>;\012    pos u10B4D.alt01 <NULL> u10B4F <88 0 88 0>;\012    pos u10B4D.alt01 <NULL> u10B51 225;\012    pos u10B4D.alt01 <NULL> u10B52 <107 0 107 0>;\012    pos u10B4D.alt01 <NULL> u10B53 <78 0 78 0>;\012    pos u10B4D.alt01 <NULL> u10B54 <98 0 98 0>;\012} PairPositioning1;\012\012pos u10B51.alt01' lookup PairPositioning3 [u10B46 u10B49]' u10B4D;\012";
+code = "lookup PairPositioning1 {\012    lookupflag RightToLeft;\012    ;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> [u10B42 u10B4210B45] <112 0 112 0>;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> u10B45 <127 0 127 0>;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> u10B46 <381 0 381 0>;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> u10B49 <410 0 410 0>;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> u10B4B <234 0 234 0>;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> u10B4F <88 0 88 0>;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> u10B51 225;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> u10B52 <107 0 107 0>;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> u10B53 <78 0 78 0>;\012    pos [u10B4D.alt01 u10B4D10B4D] <NULL> u10B54 <98 0 98 0>;\012} PairPositioning1;\012\012pos u10B51.alt01' lookup PairPositioning3 [u10B46 u10B49]' u10B4D;\012";
 name = kern;
+},
+{
+code = "\012lookup ligs {\012sub u10B42 u10B45 by u10B4210B45;\012sub u10B47 u10B45 by u10B4710B45;\012sub u10B49 u10B45 by u10B4910B45;\012sub u10B4D u10B43 by u10B4D10B43;\012sub u10B4D u10B45 by u10B4D10B45;\012sub u10B4F u10B4B by u10B4F10B4B;\012sub u10B53 u10B45 by u10B5310B45;\012sub u10B55 u10B45 by u10B5510B45;\012} ligs;";
+name = liga;
 }
 );
 fontMaster = (
@@ -1774,7 +1785,7 @@ width = 299;
 },
 {
 glyphname = u10B4D10B4D;
-lastChange = "2017-03-01 21:25:01 +0000";
+lastChange = "2022-06-21 14:14:08 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -1782,27 +1793,27 @@ paths = (
 {
 closed = 1;
 nodes = (
-"956 -301 LINE",
-"956 536 LINE",
-"868 536 LINE",
-"868 -227 LINE",
-"15 -227 LINE",
-"15 -301 LINE"
+"436 -301 LINE",
+"436 536 LINE",
+"348 536 LINE",
+"348 -227 LINE",
+"-505 -227 LINE",
+"-505 -301 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"715 -166 LINE",
-"715 536 LINE",
-"627 536 LINE",
-"627 -92 LINE",
-"15 -92 LINE",
-"15 -166 LINE"
+"195 -166 LINE",
+"195 536 LINE",
+"107 536 LINE",
+"107 -92 LINE",
+"-505 -92 LINE",
+"-505 -166 LINE"
 );
 }
 );
-width = 1041;
+width = 521;
 }
 );
 },
@@ -2490,5 +2501,5 @@ manufacturer = "Monotype Imaging Inc.";
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 1000;
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
