@@ -9,7 +9,7 @@ code = "u10B40 u10B41 u10B42 u10B43 u10B44 u10B45 u10B46 u10B47 u10B48 u10B49 u1
 name = class1;
 }
 );
-copyright = "Copyright 2017-2022 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-parthian)";
 customParameters = (
 {
 name = glyphOrder;
@@ -95,11 +95,11 @@ value = "Designed by Monotype design team.";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
