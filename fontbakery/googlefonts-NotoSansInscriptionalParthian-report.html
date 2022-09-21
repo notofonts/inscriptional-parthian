@@ -69,74 +69,60 @@
                 <th>⚠️ WARN</th>
                 <th>⏩ SKIP</th>
                 <th>ℹ️ INFO</th>
-                <th>✔️ PASS</th>
+                <th>✅ PASS</th>
             </tr>
             <tr>
                 <td>0</td>
-                <td>9</td>
-                <td>6</td>
-                <td>115</td>
+                <td>1</td>
                 <td>8</td>
-                <td>97</td>
+                <td>108</td>
+                <td>8</td>
+                <td>102</td>
             </tr>
             <tr>
                 <td>0%</td>
+                <td>1%</td>
                 <td>5%</td>
-                <td>3%</td>
-                <td>62%</td>
-                <td>4%</td>
-                <td>52%</td>
+                <td>63%</td>
+                <td>5%</td>
+                <td>60%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
-<h3>Check Google Fonts glyph coverage.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Are there caret positions declared for every ligature?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/ligature_carets&gt;</div>
 
-<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
-<pre><code>- 0x00AF (MACRON)
+<details><summary>⚠️ <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]</p>
+</span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- u10B42 + u10B45
+
+- u10B47 + u10B45
+
+- u10B49 + u10B45
+
+- u10B4D + u10B43
+
+- u10B43 + u10B45
+
+- u10B4F + u10B4B
+
+- u10B53 + u10B45 
+
+- And u10B55 + u10B45 [code: lacks-kern-info]
 </code></pre>
-<p>[code: missing-codepoints]</p>
 </span></li></ul></div></details>
-<h3>Check copyright namerecords match license file.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
 
-<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
-</span></li></ul></div></details>
-<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]</p>
-</span></li></ul></div></details>
-<h3>Copyright notices match canonical pattern in fonts</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
-But instead we have got:
-&quot;Copyright 2017-2021 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
-</span></li></ul></div></details>
-<h3>Check name table: FONT_FAMILY_NAME entries.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/familyname&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the &quot;name&quot; table: Expected &quot;Noto Sans Inscriptional Parthian&quot; but got &quot;Noto Sans InsParthi&quot;. [code: mismatch]</p>
-</span></li></ul></div></details>
-<h3>Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/typographicfamilyname&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font style is &quot;Regular&quot; and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]</p>
-</span></li></ul></div></details>
-<h3>Font enables smart dropout control in "prep" table instructions?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/smart_dropout&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the <code>gftools fix-nonhinting</code> script. [code: lacks-smart-dropout]</p>
-</span></li></ul></div></details>
-<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf']. [code: missing-os2-fsselection-bit7]</p>
+<details><summary>⚠️ <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Inscriptional Parthian' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
@@ -172,19 +158,6 @@ But instead we have got:
 
 <details><summary>⚠️ <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.name&gt; 🔥⏩ℹ️</h2>
-<h3>Does full font name begin with the font family name?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/match_familyname_fullfont&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name 'Noto Sans Inscriptional Parthian Regular' does not begin with the font family name 'Noto Sans InsParthi' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️</h2>
-<h3>Check glyphs in mark glyph class are non-spacing.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_spacing_marks&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-commaaccent2 (unencoded) [code: spacing-mark-glyphs]</p>
-</span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
 <h3>Are any segments inordinately short?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
@@ -213,6 +186,71 @@ commaaccent2 (unencoded) [code: spacing-mark-glyphs]</p>
 * And 62 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Shaping Checks&gt; 🔥⏩⏩</h2>
+<h3>Check that texts shape as per expectation</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/regression&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>qa/shaping_tests/inscriptional-parthian.json: Expected and actual shaping not matching</p>
+<div class="shaping">
+<style type="text/css">
+    @font-face {font-family: "TestFont"; src: url(../../fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf);}
+    .tf { font-family: "TestFont"; }
+    .shaping pre { font-size: 1.2rem; }
+    .shaping li {
+        font-size: 1.2rem;
+        border-top: 1px solid #ddd;
+        padding: 12px;
+        margin-top: 12px;
+    }
+    .shaping-svg {
+        height: 100px;
+        margin: 10px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+</style>
+<h4>qa/shaping_tests/inscriptional-parthian.json: Expected and actual shaping not matching</h4>
+</div>
+<div class="shaping">
+<li>Shaping did not match: <span class="tf">𐭍𐭆𐭇</span> (Issue #1)</li>
+<pre>Expected: u10B47=2+832|u10B46=1+328|u10B4D.alt01=0+299</pre>
+<pre>Got     : u10B47=2+832|u10B46=1@381,0+709|u10B4D.alt01=0+299</pre>
+<pre>                               ^ +
+</pre>
+<p>Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1840 2370" transform="matrix(1 0 0 -1 0 0)">
+<path d="M10.0,-10.0L10.0,64.0Q48.0,64.0 86.5,84.0Q125.0,104.0 159.0,136.0Q193.0,168.0 218.0,204.0Q261.0,267.0 284.5,352.5Q308.0,438.0 308.0,536.0L396.0,536.0Q397.0,459.0 411.0,382.0Q425.0,305.0 453.5,239.5Q482.0,174.0 528.0,131.0Q558.0,103.0 590.5,88.5Q623.0,74.0 659.0,74.0L659.0,536.0L747.0,536.0L747.0,0.0L660.0,0.0Q541.0,0.0 458.0,83.0Q415.0,126.0 389.0,181.0Q363.0,236.0 352.0,304.0Q325.0,195.0 239.0,104.0Q209.0,72.0 170.5,46.0Q132.0,20.0 91.0,5.0Q50.0,-10.0 10.0,-10.0Z"  transform="translate(0, 801)"/>
+<path d="M106.0,-10.0Q88.0,-10.0 62.0,-6.5Q36.0,-3.0 19.0,2.0L19.0,76.0Q46.0,64.0 92.0,64.0Q123.0,64.0 140.5,82.5Q158.0,101.0 158.0,131.0Q158.0,165.0 145.0,197.5Q132.0,230.0 119.0,261.0Q106.0,292.0 106.0,320.0Q106.0,426.0 224.0,546.0L290.0,491.0Q247.0,451.0 220.5,412.0Q194.0,373.0 194.0,322.0Q194.0,296.0 207.0,268.0Q220.0,240.0 233.0,207.0Q246.0,174.0 246.0,132.0Q246.0,68.0 208.5,29.0Q171.0,-10.0 106.0,-10.0Z"  transform="translate(1213, 801)"/>
+<path d="M-657.0,-166.0L-657.0,-92.0L126.0,-92.0L126.0,536.0L214.0,536.0L214.0,-166.0L-657.0,-166.0Z"  transform="translate(1541, 801)"/>
+</svg>
+Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1459 2370" transform="matrix(1 0 0 -1 0 0)">
+<path d="M10.0,-10.0L10.0,64.0Q48.0,64.0 86.5,84.0Q125.0,104.0 159.0,136.0Q193.0,168.0 218.0,204.0Q261.0,267.0 284.5,352.5Q308.0,438.0 308.0,536.0L396.0,536.0Q397.0,459.0 411.0,382.0Q425.0,305.0 453.5,239.5Q482.0,174.0 528.0,131.0Q558.0,103.0 590.5,88.5Q623.0,74.0 659.0,74.0L659.0,536.0L747.0,536.0L747.0,0.0L660.0,0.0Q541.0,0.0 458.0,83.0Q415.0,126.0 389.0,181.0Q363.0,236.0 352.0,304.0Q325.0,195.0 239.0,104.0Q209.0,72.0 170.5,46.0Q132.0,20.0 91.0,5.0Q50.0,-10.0 10.0,-10.0Z"  transform="translate(0, 801)"/>
+<path d="M106.0,-10.0Q88.0,-10.0 62.0,-6.5Q36.0,-3.0 19.0,2.0L19.0,76.0Q46.0,64.0 92.0,64.0Q123.0,64.0 140.5,82.5Q158.0,101.0 158.0,131.0Q158.0,165.0 145.0,197.5Q132.0,230.0 119.0,261.0Q106.0,292.0 106.0,320.0Q106.0,426.0 224.0,546.0L290.0,491.0Q247.0,451.0 220.5,412.0Q194.0,373.0 194.0,322.0Q194.0,296.0 207.0,268.0Q220.0,240.0 233.0,207.0Q246.0,174.0 246.0,132.0Q246.0,68.0 208.5,29.0Q171.0,-10.0 106.0,-10.0Z"  transform="translate(832, 801)"/>
+<path d="M-657.0,-166.0L-657.0,-92.0L126.0,-92.0L126.0,536.0L214.0,536.0L214.0,-166.0L-657.0,-166.0Z"  transform="translate(1160, 801)"/>
+</svg></p>
+</div>
+<div class="shaping">
+<li>Shaping did not match: <span class="tf">𐭍𐭂𐭅𐭑𐭂𐭅𐭍𐭍𐭂</span> (Issue #2)</li>
+<pre>Expected: u10B42=8+605|u10B4D10B4D=6+521|u10B4210B45=4+951|u10B51.alt01=3+596|u10B4210B45=1+951|u10B4D.alt01=0+299</pre>
+<pre>Got     : u10B42=8@112,0+717|u10B4D10B4D=6+521|u10B4210B45=4+951|u10B51.alt01=3+596|u10B4210B45=1@112,0+1063|u10B4D.alt01=0+299</pre>
+<pre>                  ^^ ^                                                                     ^^^
+</pre>
+<p>Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4147 2370" transform="matrix(1 0 0 -1 0 0)">
+<path d="M15.0,-10.0L15.0,64.0Q183.0,64.0 300.0,154.0Q416.0,245.0 458.0,401.0Q349.0,301.0 201.0,301.0Q133.0,301.0 84.5,322.0Q36.0,343.0 0.0,396.0L61.0,446.0Q87.0,406.0 121.5,391.0Q156.0,376.0 201.0,376.0Q383.0,376.0 486.0,536.0L563.0,536.0Q556.0,375.0 486.0,248.0Q417.0,122.0 300.0,56.0Q183.0,-10.0 31.0,-10.0L15.0,-10.0Z"  transform="translate(112, 801)"/>
+<path d="M-505.0,-301.0L-505.0,-227.0L348.0,-227.0L348.0,536.0L436.0,536.0L436.0,-301.0L-505.0,-301.0ZM-505.0,-166.0L-505.0,-92.0L107.0,-92.0L107.0,536.0L195.0,536.0L195.0,-166.0L-505.0,-166.0Z"  transform="translate(717, 801)"/>
+<path d="M391.0,-10.0Q227.0,-10.0 133.0,61.5Q39.0,133.0 39.0,274.0Q39.0,325.0 63.0,366.5Q87.0,408.0 128.5,433.0Q170.0,458.0 220.0,458.0Q282.0,458.0 321.5,432.5Q361.0,407.0 380.0,366.5Q399.0,326.0 399.0,279.0Q399.0,231.0 383.5,191.5Q368.0,152.0 344.5,122.0Q321.0,92.0 296.0,72.0Q317.0,68.0 340.5,66.0Q364.0,64.0 391.0,64.0Q504.0,64.0 586.5,107.5Q669.0,151.0 723.0,227.5Q777.0,304.0 804.0,401.0Q695.0,301.0 547.0,301.0Q500.0,301.0 464.0,310.0L491.0,382.0Q517.0,376.0 547.0,376.0Q729.0,376.0 832.0,536.0L909.0,536.0Q903.0,428.0 870.5,329.5Q838.0,231.0 776.0,154.5Q714.0,78.0 618.5,34.0Q523.0,-10.0 391.0,-10.0ZM208.0,106.0Q254.0,136.0 281.5,180.5Q309.0,225.0 309.0,280.0Q309.0,330.0 285.0,357.0Q261.0,384.0 222.0,384.0Q182.0,384.0 156.0,352.5Q130.0,321.0 130.0,273.0Q130.0,218.0 149.0,176.0Q168.0,134.0 208.0,106.0Z"  transform="translate(1238, 801)"/>
+<path d="M-581.0,-240.0L-581.0,-166.0L-125.0,-166.0Q-47.0,-166.0 -2.0,-126.0Q43.0,-86.0 61.0,4.0L166.0,536.0L256.0,536.0L301.0,409.0Q316.0,367.0 330.0,342.0Q344.0,317.0 364.5,306.0Q385.0,295.0 419.0,295.0Q407.0,328.0 407.0,396.0L407.0,536.0L495.0,536.0L495.0,395.0Q495.0,358.0 499.5,329.5Q504.0,301.0 515.5,275.0Q527.0,249.0 547.0,217.0L422.0,217.0Q362.0,217.0 324.5,232.5Q287.0,248.0 263.0,284.5Q239.0,321.0 221.0,382.0L148.0,0.0Q132.0,-86.0 99.0,-139.0Q66.0,-192.0 11.5,-216.0Q-43.0,-240.0 -125.0,-240.0L-581.0,-240.0Z"  transform="translate(2189, 801)"/>
+<path d="M391.0,-10.0Q227.0,-10.0 133.0,61.5Q39.0,133.0 39.0,274.0Q39.0,325.0 63.0,366.5Q87.0,408.0 128.5,433.0Q170.0,458.0 220.0,458.0Q282.0,458.0 321.5,432.5Q361.0,407.0 380.0,366.5Q399.0,326.0 399.0,279.0Q399.0,231.0 383.5,191.5Q368.0,152.0 344.5,122.0Q321.0,92.0 296.0,72.0Q317.0,68.0 340.5,66.0Q364.0,64.0 391.0,64.0Q504.0,64.0 586.5,107.5Q669.0,151.0 723.0,227.5Q777.0,304.0 804.0,401.0Q695.0,301.0 547.0,301.0Q500.0,301.0 464.0,310.0L491.0,382.0Q517.0,376.0 547.0,376.0Q729.0,376.0 832.0,536.0L909.0,536.0Q903.0,428.0 870.5,329.5Q838.0,231.0 776.0,154.5Q714.0,78.0 618.5,34.0Q523.0,-10.0 391.0,-10.0ZM208.0,106.0Q254.0,136.0 281.5,180.5Q309.0,225.0 309.0,280.0Q309.0,330.0 285.0,357.0Q261.0,384.0 222.0,384.0Q182.0,384.0 156.0,352.5Q130.0,321.0 130.0,273.0Q130.0,218.0 149.0,176.0Q168.0,134.0 208.0,106.0Z"  transform="translate(2897, 801)"/>
+<path d="M-657.0,-166.0L-657.0,-92.0L126.0,-92.0L126.0,536.0L214.0,536.0L214.0,-166.0L-657.0,-166.0Z"  transform="translate(3848, 801)"/>
+</svg>
+Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3923 2370" transform="matrix(1 0 0 -1 0 0)">
+<path d="M15.0,-10.0L15.0,64.0Q183.0,64.0 300.0,154.0Q416.0,245.0 458.0,401.0Q349.0,301.0 201.0,301.0Q133.0,301.0 84.5,322.0Q36.0,343.0 0.0,396.0L61.0,446.0Q87.0,406.0 121.5,391.0Q156.0,376.0 201.0,376.0Q383.0,376.0 486.0,536.0L563.0,536.0Q556.0,375.0 486.0,248.0Q417.0,122.0 300.0,56.0Q183.0,-10.0 31.0,-10.0L15.0,-10.0Z"  transform="translate(0, 801)"/>
+<path d="M-505.0,-301.0L-505.0,-227.0L348.0,-227.0L348.0,536.0L436.0,536.0L436.0,-301.0L-505.0,-301.0ZM-505.0,-166.0L-505.0,-92.0L107.0,-92.0L107.0,536.0L195.0,536.0L195.0,-166.0L-505.0,-166.0Z"  transform="translate(605, 801)"/>
+<path d="M391.0,-10.0Q227.0,-10.0 133.0,61.5Q39.0,133.0 39.0,274.0Q39.0,325.0 63.0,366.5Q87.0,408.0 128.5,433.0Q170.0,458.0 220.0,458.0Q282.0,458.0 321.5,432.5Q361.0,407.0 380.0,366.5Q399.0,326.0 399.0,279.0Q399.0,231.0 383.5,191.5Q368.0,152.0 344.5,122.0Q321.0,92.0 296.0,72.0Q317.0,68.0 340.5,66.0Q364.0,64.0 391.0,64.0Q504.0,64.0 586.5,107.5Q669.0,151.0 723.0,227.5Q777.0,304.0 804.0,401.0Q695.0,301.0 547.0,301.0Q500.0,301.0 464.0,310.0L491.0,382.0Q517.0,376.0 547.0,376.0Q729.0,376.0 832.0,536.0L909.0,536.0Q903.0,428.0 870.5,329.5Q838.0,231.0 776.0,154.5Q714.0,78.0 618.5,34.0Q523.0,-10.0 391.0,-10.0ZM208.0,106.0Q254.0,136.0 281.5,180.5Q309.0,225.0 309.0,280.0Q309.0,330.0 285.0,357.0Q261.0,384.0 222.0,384.0Q182.0,384.0 156.0,352.5Q130.0,321.0 130.0,273.0Q130.0,218.0 149.0,176.0Q168.0,134.0 208.0,106.0Z"  transform="translate(1126, 801)"/>
+<path d="M-581.0,-240.0L-581.0,-166.0L-125.0,-166.0Q-47.0,-166.0 -2.0,-126.0Q43.0,-86.0 61.0,4.0L166.0,536.0L256.0,536.0L301.0,409.0Q316.0,367.0 330.0,342.0Q344.0,317.0 364.5,306.0Q385.0,295.0 419.0,295.0Q407.0,328.0 407.0,396.0L407.0,536.0L495.0,536.0L495.0,395.0Q495.0,358.0 499.5,329.5Q504.0,301.0 515.5,275.0Q527.0,249.0 547.0,217.0L422.0,217.0Q362.0,217.0 324.5,232.5Q287.0,248.0 263.0,284.5Q239.0,321.0 221.0,382.0L148.0,0.0Q132.0,-86.0 99.0,-139.0Q66.0,-192.0 11.5,-216.0Q-43.0,-240.0 -125.0,-240.0L-581.0,-240.0Z"  transform="translate(2077, 801)"/>
+<path d="M391.0,-10.0Q227.0,-10.0 133.0,61.5Q39.0,133.0 39.0,274.0Q39.0,325.0 63.0,366.5Q87.0,408.0 128.5,433.0Q170.0,458.0 220.0,458.0Q282.0,458.0 321.5,432.5Q361.0,407.0 380.0,366.5Q399.0,326.0 399.0,279.0Q399.0,231.0 383.5,191.5Q368.0,152.0 344.5,122.0Q321.0,92.0 296.0,72.0Q317.0,68.0 340.5,66.0Q364.0,64.0 391.0,64.0Q504.0,64.0 586.5,107.5Q669.0,151.0 723.0,227.5Q777.0,304.0 804.0,401.0Q695.0,301.0 547.0,301.0Q500.0,301.0 464.0,310.0L491.0,382.0Q517.0,376.0 547.0,376.0Q729.0,376.0 832.0,536.0L909.0,536.0Q903.0,428.0 870.5,329.5Q838.0,231.0 776.0,154.5Q714.0,78.0 618.5,34.0Q523.0,-10.0 391.0,-10.0ZM208.0,106.0Q254.0,136.0 281.5,180.5Q309.0,225.0 309.0,280.0Q309.0,330.0 285.0,357.0Q261.0,384.0 222.0,384.0Q182.0,384.0 156.0,352.5Q130.0,321.0 130.0,273.0Q130.0,218.0 149.0,176.0Q168.0,134.0 208.0,106.0Z"  transform="translate(2673, 801)"/>
+<path d="M-657.0,-166.0L-657.0,-92.0L126.0,-92.0L126.0,536.0L214.0,536.0L214.0,-166.0L-657.0,-166.0Z"  transform="translate(3624, 801)"/>
+</svg></p>
+</div> [code: shaping-regression]
 </span></li></ul></div></details>
                     </body>
                 </html>
