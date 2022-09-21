@@ -1,5 +1,5 @@
 {
-.appVersion = "3072";
+.appVersion = "3134";
 DisplayStrings = (
 "/u10B4D10B4D"
 );
@@ -2485,10 +2485,6 @@ value = -301;
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans InsParthi";
 }
 );
 instanceInterpolations = {
